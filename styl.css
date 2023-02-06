@@ -2,8 +2,11 @@
     width: 70%;
     height: 900px;
     margin: auto;
-    background-color:  rgb(255 0 0 / 55%);
+    border: 1px black solid;
+    box-shadow: 22px 5px 27px 8px rgb(66, 63, 58);
+    background-color: rgba(255, 208, 0, 0.733);
 }
+
 
 header{
     display: flex;
@@ -14,6 +17,7 @@ img, .jam{
     margin-right: 10%;
 }
 .jam{
+    background-color: rgba(253, 49, 49, 0.719);
     text-align: center;
     width: 25%;
 }
@@ -29,12 +33,15 @@ main{
     margin-left: 5%;
     display: flex;
 }
+header{
+    background-color: #2997ffa8;
+    padding-bottom: 15px;
+    border: black dotted 1px;
+}
 body{
-font-weight: bolder;
+    font-weight: bolder;
     font-size: larger;
     font-family: 'Courier New', Courier, monospace;
-    background: rgb(128,252,69);
-    background: linear-gradient(90deg, rgba(128,252,69,1) 0%, rgba(252,253,29,1) 30%, rgba(226,253,37,1) 65%, rgba(128,252,69,1) 100%);
 }
 
 ul{
