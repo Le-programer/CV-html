@@ -17,6 +17,8 @@ img, .jam{
     margin-right: 10%;
 }
 .jam{
+    padding-top: 10px;
+    border-radius: 10%;
     background-color: rgba(253, 49, 49, 0.719);
     text-align: center;
     width: 25%;
@@ -24,6 +26,7 @@ img, .jam{
 img{
     height: 192px;
     width: 192px;
+    border-radius: 10%;
 }
 header div{
     margin-left: 5%;
@@ -36,7 +39,6 @@ main{
 header{
     background-color: #2997ffa8;
     padding-bottom: 15px;
-    border: black dotted 1px;
 }
 body{
     font-weight: bolder;
