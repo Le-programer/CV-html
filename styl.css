@@ -1,0 +1,54 @@
+.cv_body{
+    width: 70%;
+    margin: auto;
+    background-color:  rgb(255 0 0 / 55%);
+}
+
+header{
+    display: flex;
+}
+img, .jam{
+    margin-left: auto;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+.jam{
+    text-align: center;
+    width: 25   %;
+}
+img{
+    height: 192px;
+    width: 192px;
+}
+header div{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+main{
+    margin-left: 5%;
+    display: flex;
+}
+body{
+font-weight: bolder;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(128,252,69);
+    background: linear-gradient(90deg, rgba(128,252,69,1) 0%, rgba(252,253,29,1) 30%, rgba(226,253,37,1) 65%, rgba(128,252,69,1) 100%);
+}
+
+ul{
+    list-style-type: none;
+}
+.imie{
+    margin: 0;
+}
+.imie::first-letter{
+    font-size: 150%;
+}
+.zawod, .tel{
+    margin-top: 10px;
+}
+
+.opis, .tel, .mail, .jam{
+    font-weight: normal;
+}
